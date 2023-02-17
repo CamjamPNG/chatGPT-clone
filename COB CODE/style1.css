@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+.heading{
+    font-family: monospace;
+    font-size: 1.6vw;
+    color: white;
+    background-color: #222;
+    padding:  1.6vw;
+    text-align: center;
+    border-bottom:  0.5vw solid red;
+    
+    
+}
+
+nav{
+    padding: 4vw 0.5vw;
+    margin: 0;
+}
+ul{
+    background-color: #222;
+}
+header li{
+  
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    float: inline-start;
+
+   
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    padding: 8px;
+}
+ header li .ser{
+    color: red;
+    font-weight: bold;
+    
+}
+.home{
+    color: red;
+    font-weight: bold;
+    
+}
+.about{
+    color: red;
+    font-weight: bold;
+    
+}
+.info{
+    display: grid;
+    margin-left:40%  ;
+    margin-top: -10%;
+    color: aliceblue;
+   background-color: transparent;
+   padding: 0;
+   width: 40%;
+   height: 20%;
+   border-radius: 10px;
+}
+.sign{
+    margin-left: 90%;
+   color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.sign:hover{
+    text-decoration: underline;
+    color: red;
+    transition: all 1s ;
+}
+.info .log{
+    margin-left: 90%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+.log:hover{
+    text-decoration: underline;
+    color: red;
+    transition: all 1s ;
+}
+.con{
+    background-color: transparent;
+    width: 30%;
+    height: 30%;
+    margin-top: -10%;
+    border-radius: 10px;
+    margin-left: 45%;
+    color: white;
+    
+    font-weight: 300;
+    
+}
+span{
+    color: red;
+}

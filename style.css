@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(166, 140, 140);
+}
+
+
+
+
+
+#button {
+    color: black;
+    width: 75px;
+    height: 40px;
+    padding: 5px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+
+
+}
+
+#buttton{
+    color: black;
+    width: 75px;
+    height: 40px;
+    padding: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    left: 38%;
+
+
+}
+
+.search{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+nav{
+    display: flex;
+
+}
+ nav li{
+    list-style: none;
+    padding: 0 23px;
+    margin: 1px;
+    top: 1%;
+    left: 5%;
+}
+
+.container{
+    height: auto;
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+} 
+
+.border{
+    width: 25vw;
+    height: 25vw;
+    background: rgb(232, 179, 179);
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    border-radius: 8px;
+    border: 2px solid black;   
+     
+}
+
+

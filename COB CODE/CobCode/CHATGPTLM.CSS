@@ -1,0 +1,355 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.newchat{
+    width: 300px;
+    height: 642px;
+    background: rgb(0, 0, 0);
+}
+.button{
+    margin-left: 10%;
+   
+}
+#btn{
+    margin-top: 4%;
+    margin-left: -10%;
+    width: 292px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(76, 104, 130);
+}
+#hr{
+    margin-top: 130%;
+    margin-left: -11%;
+
+}
+#btn2{
+    margin-top: 4%;
+    margin-left: -10%;
+    width: 292px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: 0.8s;
+    text-align: baseline;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color: rgb(76, 104, 130);
+}
+#btn3{
+    margin-top: 4%;
+    margin-left: -10%;
+    width: 292px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    transition: 0.8s;
+    text-align: baseline;
+    cursor: pointer;
+}
+#btn3:hover{
+    background-color: rgb(76, 104, 130);
+}
+#btn4{
+    margin-top: 4%;
+    margin-left: -10%;
+    width: 292px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: 0.8s;
+    text-align: baseline;
+    cursor: pointer;
+}
+#btn4:hover{
+    background-color: rgb(54, 105, 152);
+}
+#btn5{
+    margin-top: 4%;
+    margin-left: -10%;
+    width: 292px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: 0.8s;
+    text-align: baseline;
+    cursor: pointer;
+}
+#btn5:hover{
+    background-color: rgb(19, 77, 132);
+}
+#i{
+    color: gray;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+#reload{
+    width: 92px;
+    height: 38px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    border-radius: 10px;
+    transition: .8s;
+    cursor: pointer;
+}
+#reload:hover{
+    font-size: larger;
+    background-color: rgb(255, 0, 0);
+
+}
+.name{
+    margin-top: -220%;
+    margin-left: 275%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+#eg{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-weight: 100;
+    margin-left: 170%;
+    margin-top: 40%;
+
+}
+#cp{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-weight: 100;
+    /* margin-left: 170%; */
+    margin-top: -109%;
+    margin-left: 285%;
+}
+#lm{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-weight: 100;
+    margin-left: 395%;
+    margin-top: -109%;
+   
+}
+.egbox1{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 143%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.egbox1:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+
+.egbox2{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 143%;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.egbox2:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+.egbox3{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 143%;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;   
+}
+
+.egbox3:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+/* CP PART */
+.cpbox1{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 260%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.cpbox1:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+.cpbox2{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 260%;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.cpbox2:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+.cpbox3{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 260%;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.cpbox3:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+/* LIMITATIONS PART */
+.lmbox1{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 370%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.lmbox1:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+.lmbox2{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 370%;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.lmbox2:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+.lmbox3{
+    width: 250px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 370%;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    border-radius: 5px;  
+    transition: .8s;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+}
+
+.lmbox3:hover{
+    background-color: rgba(0, 0, 0, 0.535);
+}
+/* INPUT TXT */
+#inp{
+    background-color: rgba(128, 128, 128, 0.326);
+    width: 850px;
+    height: 40px;
+    margin-left: 142%;
+    margin-top: 25%;
+    border-radius: 10px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    border-width: 5px;
+}

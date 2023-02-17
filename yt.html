@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu bar animation</title>
+    <style>
+       html,body{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #cc0066;
+
+       }
+       .big_wrapper{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+       }
+       .nav div{
+        height: 20px;
+        background-color: #ffff;
+        margin: 25px 0;
+        border-radius: 25px;
+        transition: 0.8s;
+       }
+       .one{
+        width: 150px;
+       }
+       .two{
+        width: 150px;
+       }
+       .three{
+        width: 150px;
+       }
+       .nav:hover div{
+        width: 150px;
+       }
+    </style>
+</head>
+<body>
+   <div class="big_wrapper">
+    <a href="#" class="nav">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </a>
+
+   </div>
+</body>
+</html>

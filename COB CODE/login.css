@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+input{
+    display: flex;
+    flex-direction: row;
+    margin-left: 43%;
+}
+input{
+    padding: 20px;
+    margin: 15px;
+    margin-left: 23%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 2%;
+    width: 50%;
+    box-shadow: 5px 3px 30px 5px black;
+}
+button{
+    border: 2px solid black;
+    width: 30%;
+    background-color: lightblue;
+    box-shadow: 5px 3px 50px 10px blue;
+    margin-left: 35%;
+    margin-top: 3%;
+    padding: 20px;
+    border-radius: 20px;
+
+}

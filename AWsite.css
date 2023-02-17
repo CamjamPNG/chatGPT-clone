@@ -1,0 +1,75 @@
+html,body{
+   background: none;
+    
+}
+.as{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    background-color: transparent;
+    width: 45%;
+    height: 65%;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+}
+nav{
+    display: flex;
+        
+    }
+    nav li{
+        list-style: none;
+        padding: 0 23px;
+        font-family: sans-serif;
+    } *
+.search{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+.bg{
+    background-image:url(https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg);
+      background-repeat:no-repeat;
+      padding:68px;
+      width:1100px;
+      height:566px;
+      border:1px solid black;
+      left: 0.1%;
+}
+.gender{
+    /* border: 2px solid black;  */
+    position: absolute;
+    top: 51%;
+    left: 43%;
+    background-color: whitesmoke;
+    width: 8%;
+    height: 7%;
+}
+.button{
+    /* border: 2px solid black;  */
+    position: absolute;
+    top: 59%;
+    left: 43%;
+    background-color: transparent;
+    width: 11%;
+    height: 7%;
+    border-radius: 10px;
+}
+.nav{
+    position: absolute;
+    top: 6%;
+    left: 2%;
+    background-color: transparent;
+    width: 11%;
+    height: 7%;
+}
+.site_name{
+    position: absolute;
+    top: 16%;
+    left: 41%;
+    background-color: whitesmoke;
+    width: 11%;
+    height: 19%;
+    font-family: cursive;
+    border: 2px solid black;
+    padding: 9px;
+}
